@@ -4,5 +4,3 @@ y = sentence1.split()
 y.collect {|x| arr << x.reverse}
 arr.join(" ")
 end
-
-
